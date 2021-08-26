@@ -13,7 +13,9 @@
 		"url": "https://alestor123.github.io/"
 	},
 	"type": "module",
-	"bin": "cli.js",
+	"bin": {
+		"everything-ok":"cli.js"
+	},
 	"engines": {
 		"node": ">=10"
 	},
@@ -23,8 +25,9 @@
 		"lint": "standard . --fix"
 	},
 	"files": [
-		"App.js",
-		"cli.js"
+		"cli.js",
+		"requirements.json"
+
 	],
 	"keywords": [
 		"cli-app",

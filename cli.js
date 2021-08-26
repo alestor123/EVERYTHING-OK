@@ -10,7 +10,6 @@ const pckgjson = JSON.parse(readFileSync('package.json').toString());
 const registryURL = 'https://registry.npmjs.org/';
 // console.log(JSON.stringify())
 const {names,keyWords,devDeps,scripts} = require('./requirements.json')
-const everythingOk = require('./App')
 tap.equal(names.map(name => existsSync(name)).every(bool => bool===true), true)
 tap.equal(keyWords.every(r=> Object.keys(pckgjson).includes(r)), true)
 tap.equal(scripts.every(r=> Object.keys(pckgjson.scripts).includes(r)), true)
