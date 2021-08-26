@@ -1,0 +1,6 @@
+{
+    "names":["test.js","run.js","README.md","package.json","LICENSE",".npmrc",".npmignore",".gitignore",".github/workflows/main.yml",".github/workflows/publish.yml"],
+    "keyWords":["name","version","description","main","license","repository","funding","homepage","author","engines","scripts","files","keywords","devDependencies"],
+    "devDeps":["tap","tap-spec","standard"],
+    "scripts":["test","lint","example"]
+}
