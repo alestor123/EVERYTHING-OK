@@ -15,11 +15,6 @@
 
 ## 🚀 Usage
 
-## API
-
-```
-everythingOk(input)
-```
 
 ## Quick use
 ```
