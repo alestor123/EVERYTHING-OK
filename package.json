@@ -1,6 +1,6 @@
 {
 	"name": "everything-ok",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "An inspection tool for npm packages before publishing ",
 	"main": "cli.js",
 	"license": "MIT",

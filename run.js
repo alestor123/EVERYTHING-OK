@@ -1,1 +1,0 @@
-const everythingOk = require('./App')
