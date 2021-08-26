@@ -2,7 +2,7 @@
 	"name": "everything-ok",
 	"version": "0.0.0",
 	"description": "An inspection tool for npm packages before publishing ",
-	"main": "App.js",
+	"main": "cli.js",
 	"license": "MIT",
 	"repository": "alestor123/EVERYTHING-OK",
 	"funding": "https://alestor123.is-a.dev/donate",
@@ -40,10 +40,8 @@
 		"tap-spec": "^5.0.0"
 	},
 	"dependencies": {
-		"chalk": "^4.1.2",
 		"is-reachable": "^5.0.0",
 		"npm-name": "^5.0.0",
-		"prompt-sync": "^4.2.0",
 		"semver": "^7.3.5"
 	}
 }
